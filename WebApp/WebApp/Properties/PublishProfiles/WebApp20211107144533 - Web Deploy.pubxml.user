@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAa1/qgrG8lEGLx1K5dHT54wAAAAACAAAAAAAQZgAAAAEAACAAAACftE+9yqBJeHmmAJbx39UNKPJPSTwukx8NCO4mL6esqgAAAAAOgAAAAAIAACAAAAAQZC07AdTcboWLBexlVTTf4bI28VJgxXnIexg7nJSOR4AAAADSK21aNUNXqaqopE4eM6I+IKyOSON6QWE+i4xK6zMNK08dlZYM5mYMaWzHTN/GrTERMSroKFDAK8YxHFAUUIjsRAT3m/5XMh2d4qw3m8/AZRXNZgAHsENIhTSaOxQ3keE/LjjkcLdJYeslRGpDrHOTd2KQu5Y68cDWPqtpJURtuEAAAAApVk5dmjGEi0CHiumAJEfHGp49edosM88PtI04SwI3vW9YVCN7/a7CrhCIqmo+trg3haUdO/8TbpH1tFdwlrXn</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="WebAppContext">
+      <Value>Data Source=tcp:weh.database.windows.net,1433%3bInitial Catalog=weh%3bUser Id=jejoojal%40weh%3bPassword=8RFLjA7KD38Frg2</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApp.Data.WebAppContext">
+      <Value>Data Source=tcp:weh.database.windows.net,1433%3bInitial Catalog=weh%3bUser Id=jejoojal%40weh%3bPassword=8RFLjA7KD38Frg2</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

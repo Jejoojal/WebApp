@@ -1,0 +1,65 @@
+﻿@page
+@model WebApp.Pages.Profiles.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Profile</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Profile.ID" />
+            <div class="form-group">
+                <label asp-for="Profile.etunimi" class="control-label"></label>
+                <input asp-for="Profile.etunimi" class="form-control" />
+                <span asp-validation-for="Profile.etunimi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.sukunimi" class="control-label"></label>
+                <input asp-for="Profile.sukunimi" class="form-control" />
+                <span asp-validation-for="Profile.sukunimi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.sposti" class="control-label"></label>
+                <input asp-for="Profile.sposti" class="form-control" />
+                <span asp-validation-for="Profile.sposti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.puhelin" class="control-label"></label>
+                <input asp-for="Profile.puhelin" class="form-control" />
+                <span asp-validation-for="Profile.puhelin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.katuosoite" class="control-label"></label>
+                <input asp-for="Profile.katuosoite" class="form-control" />
+                <span asp-validation-for="Profile.katuosoite" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.postinumero" class="control-label"></label>
+                <input asp-for="Profile.postinumero" class="form-control" />
+                <span asp-validation-for="Profile.postinumero" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.postitoimipaikka" class="control-label"></label>
+                <input asp-for="Profile.postitoimipaikka" class="form-control" />
+                <span asp-validation-for="Profile.postitoimipaikka" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,61 @@
+﻿@page
+@model WebApp.Pages.Profiles.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Profile</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.etunimi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.etunimi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.sukunimi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.sukunimi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.sposti)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.sposti)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.puhelin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.puhelin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.katuosoite)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.katuosoite)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.postinumero)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.postinumero)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Profile.postitoimipaikka)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Profile.postitoimipaikka)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Profile.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

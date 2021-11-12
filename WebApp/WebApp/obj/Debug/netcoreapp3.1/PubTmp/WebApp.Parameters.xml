@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebApp20211107144533" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Käyttäjä\\source\\repos\\WebApp\\WebApp\\obj\\Debug\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="WebApp.Data.WebAppContext" description="" value="Data Source=tcp:weh.database.windows.net,1433;Initial Catalog=weh;User Id=jejoojal@weh;Password=8RFLjA7KD38Frg2" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Käyttäjä\\source\\repos\\WebApp\\WebApp\\obj\\Debug\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\WebApp\.Data\.WebAppContext\.sql$" />
+  </parameter>
+</parameters>

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "storage1": {
+      "restored": true,
+      "restoreTime": "2021-11-09T15:34:48.1619557Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-11-09T16:59:51.6609105Z"
+    }
+  },
+  "parameters": {
+    "storage1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "WebApp20211107144347ResourceGroup"
+    },
+    "storage1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "c1facf64-444a-4729-ac9d-ca63d4d34d6e"
+    },
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "c1facf64-444a-4729-ac9d-ca63d4d34d6e"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "WebApp20211107144347ResourceGroup"
+    }
+  }
+}
