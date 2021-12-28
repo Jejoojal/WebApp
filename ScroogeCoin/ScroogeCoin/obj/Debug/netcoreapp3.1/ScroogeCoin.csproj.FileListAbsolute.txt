@@ -1,0 +1,15 @@
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.exe
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.deps.json
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.runtimeconfig.json
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.runtimeconfig.dev.json
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.dll
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\ScroogeCoin.pdb
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.csprojAssemblyReference.cache
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.AssemblyInfoInputs.cache
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.AssemblyInfo.cs
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.dll
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.pdb
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.genruntimeconfig.cache
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\bin\Debug\netcoreapp3.1\System.Json.dll
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.csproj.CoreCompileInputs.cache
+C:\Users\Käyttäjä\source\repos\ScroogeCoin\ScroogeCoin\obj\Debug\netcoreapp3.1\ScroogeCoin.csproj.CopyComplete

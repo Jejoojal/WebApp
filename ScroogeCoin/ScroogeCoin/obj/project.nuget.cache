@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6S7BQ6kxDuLYr2q0/jFDakRMPPCAjaqNE5CHQLLvlyTimCgFK6havkt1HNcNYNWVcykvjxkYYtZ111c1szjEaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Käyttäjä\\source\\repos\\ScroogeCoin\\ScroogeCoin\\ScroogeCoin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Käyttäjä\\.nuget\\packages\\system.json\\4.7.1\\system.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
